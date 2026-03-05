@@ -39,7 +39,7 @@ jobs:
             os: macos-latest
             builder_args: "--mac dmg zip --arm64"
           - label: linux-x64
-            os: blacksmith-4vcpu-ubuntu-2404
+            os: ubuntu:24.04
             builder_args: "--linux AppImage deb --x64"
           - label: linux-arm64
             os: blacksmith-4vcpu-ubuntu-2404-arm
